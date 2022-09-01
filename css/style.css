@@ -15,7 +15,7 @@ FONT SIZE SYSTEM (px)
 
 - Primary:#e67e22
 -Tints:#fdf2e9
--Shades:
+-Shades:#cf711f
 -Accents:
 -Greys:
 #555
@@ -144,4 +144,9 @@ html {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
