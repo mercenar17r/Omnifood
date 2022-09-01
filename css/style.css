@@ -17,7 +17,9 @@ FONT SIZE SYSTEM (px)
 -Tints:
 -Shades:
 -Accents:
--Greys:#555
+-Greys:
+#555
+#333
 
 5.SHADOWS
 
@@ -58,6 +60,17 @@ html {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5;
+}
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
 }
 
 .hero-img {
