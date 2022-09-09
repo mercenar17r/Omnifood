@@ -120,9 +120,10 @@
   color: #ddd;
   margin-bottom: 1.2rem;
 }
-.heading-tertiary {
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
-
 .step-img {
-  width: 50%;
+  width: 30%;
 }
