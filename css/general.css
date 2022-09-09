@@ -72,7 +72,8 @@ html {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 .grid--2--cols {
   grid-template-columns: repeat(2, 1fr);
@@ -82,6 +83,9 @@ html {
 }
 .grid--4--cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--center-v {
+  align-items: center;
 }
 
 .container {
