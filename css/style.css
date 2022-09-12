@@ -304,3 +304,12 @@
   width: 6rem;
   border-radius: 50%;
 }
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
