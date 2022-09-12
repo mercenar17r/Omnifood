@@ -275,6 +275,10 @@
   align-items: center;
   gap: 1.6rem;
 }
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
 .list-icon {
   width: 3rem;
   height: 3rem;
