@@ -339,13 +339,13 @@
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.75;
-  margin: bottom 3.2rem;
+  margin-bottom: 3.2rem;
 }
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
   color: #333;
-  margin: bottom 1.6rem;
+  margin-bottom: 1.6rem;
 }
 .plan-price span {
   font-size: 3rem;
