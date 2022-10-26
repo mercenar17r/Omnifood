@@ -405,3 +405,8 @@
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
