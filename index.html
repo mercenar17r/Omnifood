@@ -422,10 +422,19 @@
                 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
                 <form  class="cta-form " action="#">
                   <label for="full-name">Full Name</label>
-                  <input id="full-name" type="text" placeholder="Alexander Smith">
+                  <input id="full-name" type="text" placeholder="Alexander Smith" required>
                   <label for="email">Email</label>
-                  <input id="email" type="email" placeholder="me@example.com">
+                  <input id="email" type="email" placeholder="me@example.com" required>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select required>
+                    <option value="friends" id="select-where">Friends and Family</option>
+                    <option value="youtube" id="select-where">Youtube Videos</option>
+                    <option value="podcast" id="select-where">Podcast</option>
+                    <option value="ad" id="select-where">Facebook Ad</option>
+                    <option value="others" id="select-where">Others</option>
+                  </select>
                   <button class="btn">Sign up now</button>
+
 
                 </form>
             </div>
