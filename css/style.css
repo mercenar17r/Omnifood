@@ -517,6 +517,14 @@
   line-height: 1.6;
   margin-top: auto;
 }
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
 
 .footer-heading {
   font-weight: 500;
