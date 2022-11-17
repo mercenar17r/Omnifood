@@ -13,3 +13,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/**************************/
+/* BELOW 1200px(Tablets)*/
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px/ 16px*/
+    font-size: 56.25%;
+  }
+}
