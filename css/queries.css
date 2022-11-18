@@ -49,3 +49,12 @@
     padding: 9.6rem 3.2rem;
   }
 }
+/**************************/
+/* BELOW 9444px(Tablets)*/
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
