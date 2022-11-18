@@ -94,4 +94,7 @@
   .cta-form {
     grid-template-columns: 1fr;
   }
+  .btn--form {
+    margin-top: 1.2rem;
+  }
 }
