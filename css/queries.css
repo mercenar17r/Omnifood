@@ -79,4 +79,7 @@
   .step-number {
     font-size: 7.4rem;
   }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
 }
