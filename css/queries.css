@@ -145,3 +145,12 @@
     font-size: 3rem;
   }
 }
+/**************************/
+/* BELOW 704px( Smaller tablets)*/
+/**************************/
+@media (max-width: 44em) {
+  .grid--4--cols,
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
