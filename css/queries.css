@@ -153,4 +153,11 @@
   .grid--3--cols {
     grid-template-columns: repeat(2, 1fr);
   }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
 }
