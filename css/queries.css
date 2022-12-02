@@ -196,4 +196,9 @@
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
   }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
 }
