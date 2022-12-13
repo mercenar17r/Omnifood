@@ -40,7 +40,7 @@ const obs = new IntersectionObserver(
     console.log(ent);
 
     if (ent.isIntersecting === false) {
-      document.querySelector("header").classList.add("sticky");
+      document.body.classList.add("sticky");
     }
   },
   {
