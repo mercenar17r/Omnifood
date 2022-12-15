@@ -100,7 +100,6 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
-    z-index: 999;
   }
   .main-nav {
     position: absolute;
@@ -150,8 +149,8 @@
 /* BELOW 704px( Smaller tablets)*/
 /**************************/
 @media (max-width: 44em) {
-  .grid--4--cols,
-  .grid--3--cols {
+  .grid--3--cols,
+  .grid--4--cols {
     grid-template-columns: repeat(2, 1fr);
   }
   .diets {
@@ -188,14 +187,14 @@
   .grid--2--cols,
   .grid--3--cols,
   .grid--4--cols {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .hero {
-    padding: 0 3.2rem;
+    grid-template-columns: (1fr);
   }
 
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    padding: 0 3.2rem;
   }
   .btn,
   .btn:link,
